@@ -1,0 +1,24 @@
+{
+    "name": "telegram-bot",
+    "version": "1.0.0",
+    "description": "Telegram Bot with Node.js and MongoDB",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "node",
+        "mongodb"
+    ],
+    "author": "Arafat Salim Khan",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.14",
+        "node-telegram-bot-api": "^0.53.0"
+    }
+}
